@@ -1,0 +1,159 @@
+
+
+body {
+	font-family: 'Raleway', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+	background-color: #da7b93;
+	margin: 0;
+	max-width: 1080px;
+	
+	
+}
+
+
+header {
+	width: 100%;
+	height: 8%;
+	background-color: #5D5E5D;
+	border-bottom: 1px solid #353635;
+	
+}
+
+h1 
+{
+	text-align: center;
+	color: white;
+	padding: 80px
+}
+
+.topImage {
+	      
+			max-width; 200px;
+          }
+
+h2 
+{
+	text-align: center;
+	color: magenta;
+	padding: 100px;
+}
+
+.topContainer 
+
+{
+	padding-left: 15%;
+	height: 500px;
+	padding-bottom: 150px;
+	padding-top: 100px;
+    padding-right: 15%;
+}
+
+
+
+.rightP {float: right;
+         text-align: center;
+	     width: 40%;	 
+        }
+
+.text_column {
+	width: 90%;
+	text-align: left;
+	font-weight: lighter;
+	line-height: 25px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #A3A3A3;
+}
+.gallery  {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	
+	
+
+	padding-bottom: 300px;
+	padding-top: 0px;
+	margin-top: -5px;
+}
+
+
+.thumbnail {
+	width: 30%;
+	text-align: center;
+	float: left;
+	margin-top: 35px;
+	padding-bottom: 20px;
+	margin-left: 2%;
+	margin-right: 1%;
+	border-radius: 3px;
+	padding-top: 20px;
+	
+}
+
+.thumbnail2 {
+	width: 23%;
+	text-align: center;
+	float: left;
+	margin-top: 35px;
+	padding-bottom: 20px;
+	margin-left: 1%;
+	margin-right: 1%;
+	border-radius: 3px;
+	padding-top: 20px;
+	
+}
+.thumbnail h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #black;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+thumbnail p {
+	margin: 0;
+	color: #B3B3B3;
+	text-align: left;
+	padding-left: 60px;
+}
+
+
+
+.cards {
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+	max-height: 200px;
+	opacity: 0.8;
+}
+
+
+
+.thumbnail .tag {
+	color: #5D5E5D;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.img2{
+	  padding-top: 40px;
+	  position: relative;
+      text-align: center;
+      color: white
+     }
+
+.centered {
+  position: absolute;
+  top: 70%;
+  width: 9000px
+  transform: translate(-50%, -50%);
+}
+
+footer  {
+	     height: 400px;
+        }
+
