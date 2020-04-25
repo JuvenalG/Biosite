@@ -4,11 +4,8 @@ body {
 	font-family: 'Raleway', sans-serif;
     font-family: 'Rajdhani', sans-serif;
 	background-color: #da7b93;
-	margin: 0;
-	max-width: 1080px;
-	
-	
-}
+	}
+
 
 
 header {
@@ -23,7 +20,7 @@ h1
 {
 	text-align: center;
 	color: white;
-	padding: 80px
+	padding: 80px;
 }
 
 .topImage {
@@ -46,6 +43,7 @@ h2
 	padding-bottom: 150px;
 	padding-top: 100px;
     padding-right: 15%;
+	max-width: 90%;
 }
 
 
@@ -145,15 +143,48 @@ thumbnail p {
       text-align: center;
       color: white
      }
+img {
+	  max-height: 500px;
+ 	
+    }
+.sfImg{
+ 	  max-width: 1200px;
+	  display: block;
+     margin-left: auto;
+    margin-right: auto;
+     }
 
 .centered {
   position: absolute;
+  
   top: 70%;
   width: 9000px
   transform: translate(-50%, -50%);
+  
+  
 }
 
 footer  {
 	     height: 400px;
         }
+@media (max-width: 700px) {
 
+.centered {
+  position: absolute;
+  
+  top: 50%;
+  width: 9000px
+  transform: translate(-50%, -50%);
+	
+}
+}
+@media (max-width: 500px) {
+
+.centered {
+  position: absolute;
+  
+  top: 30%;
+  width: 9000px
+  transform: translate(-50%, -50%);
+	
+}
