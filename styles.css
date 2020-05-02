@@ -1,10 +1,10 @@
-
-
 body {
 	font-family: 'Raleway', sans-serif;
     font-family: 'Rajdhani', sans-serif;
 	background-color: #da7b93;
-	}
+	margin: 0;
+	padding: 0;
+     }
 
 
 
@@ -19,21 +19,26 @@ header {
 h1 
 {
 	text-align: center;
+	text-align: center;
 	color: white;
 	padding: 80px;
 }
-
-.topImage {
-	      
-			max-width; 200px;
-          }
 
 h2 
 {
 	text-align: center;
 	color: magenta;
-	padding: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	
 }
+
+.topImage {
+	        border: 200px, solid, orange;
+			width: 40%;
+          }
+
+
 
 .topContainer 
 
@@ -47,10 +52,14 @@ h2
 }
 
 
-
+/* text shadow and readibility with this mix of colors is hard but I think i found an inbetween*/
 .rightP {float: right;
          text-align: center;
-	     width: 40%;	 
+	     width: 40%;	
+	     font-size: large;
+	     font-weight: 600;
+	     color: grey;
+	     text-shadow: .5px 0 1px #353635;
         }
 
 .text_column {
@@ -70,7 +79,7 @@ h2
 	
 	
 
-	padding-bottom: 300px;
+	padding-bottom: 10%;
 	padding-top: 0px;
 	margin-top: -5px;
 }
@@ -137,11 +146,12 @@ thumbnail p {
 	padding-right: 20px;
 }
 
-.img2{
+.divP{
 	  padding-top: 40px;
 	  position: relative;
       text-align: center;
-      color: white
+      color: white;
+	  max height: none;
      }
 img {
 	  max-height: 500px;
@@ -150,41 +160,71 @@ img {
 .sfImg{
  	  max-width: 1200px;
 	  display: block;
-     margin-left: auto;
-    margin-right: auto;
-     }
-
-.centered {
-  position: absolute;
-  
-  top: 70%;
-  width: 9000px
-  transform: translate(-50%, -50%);
-  
-  
-}
-
-footer  {
-	     height: 400px;
-        }
-@media (max-width: 700px) {
-
-.centered {
-  position: absolute;
-  
-  top: 50%;
-  width: 9000px
-  transform: translate(-50%, -50%);
+    width: 100%; 
 	
 }
-}
-@media (max-width: 500px) {
 
 .centered {
-  position: absolute;
-  
-  top: 30%;
-  width: 9000px
-  transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: large;
+    font-weight: 600;
+    top: 70%;
+    width: 9000px
+    transform: translate(-50%, -50%);
+    background-color: grey;
+    left: 6px;
+	overflow: hidden;
+	max-height: 333px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 985px) {
+	
+.rightP {
+          width: 100%;	
+	   
+}
+
+.topImage	 {
+		  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	    
+	}
+	
+	.topContainer{
+		   margin: 0; padding: 0;
+	}
 	
 }
+
+@media (max-width: 430px){
+	
+	
+.centered{overflow: scroll}
+.rightP{max-height: 300px;
+	    overflow: scroll;
+	    
+	}
+	
+.thumbnail2 {
+		float:left;
+		width: 80%;
+		margin: 0;
+	}
+
+	
+.firsth2 {
+		padding: 0;
+	}
+	
+	
+.secondH2 {
+		   padding-bottom: 10px;
+	      }
+
+
+}
+
+
