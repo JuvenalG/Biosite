@@ -4,6 +4,7 @@ body {
 	background-color: #da7b93;
 	margin: 0;
 	padding: 0;
+	
      }
 
 
@@ -34,21 +35,22 @@ h2
 }
 
 .topImage {
-	        border: 200px, solid, orange;
+	        border: 10px inset rgb(53,54,53, .2);
+	        border-radius: 70%;
 			width: 40%;
-          }
+           
+}
 
 
 
 .topContainer 
 
 {
-	padding-left: 15%;
+    padding-left: 15%;
 	height: 500px;
 	padding-bottom: 150px;
 	padding-top: 100px;
     padding-right: 15%;
-	max-width: 90%;
 }
 
 
@@ -151,17 +153,19 @@ thumbnail p {
 	  position: relative;
       text-align: center;
       color: white;
-	  max height: none;
      }
 img {
 	  max-height: 500px;
  	
     }
 .sfImg{
- 	  max-width: 1200px;
 	  display: block;
     width: 100%; 
 	
+}
+
+.sfImg2{
+	display: none;
 }
 
 .centered {
@@ -186,19 +190,15 @@ img {
 }
 
 .topImage	 {
-		  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+		   display: block;
+           width: 80%;
 	    
 	}
 	
-	.topContainer{
-		   margin: 0; padding: 0;
-	}
+	
 	
 }
-
+/*very small resolution please use developer tools on browser to see effects just opening it will allow a smaller res*/
 @media (max-width: 430px){
 	
 	
@@ -212,6 +212,7 @@ img {
 		float:left;
 		width: 80%;
 		margin: 0;
+	    margin-left: -15px;
 	}
 
 	
@@ -223,8 +224,20 @@ img {
 .secondH2 {
 		   padding-bottom: 10px;
 	      }
+/*image swap*/
+	.sfImg {
+		    display: none;
+		   }
 
+	.sfImg2{
+		display: block;
+		max-width: 100%;
+		}
 
 }
 
+#gallery1 {
+	      margin: 0;
+	      width 80%;
+         }
 
