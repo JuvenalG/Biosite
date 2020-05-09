@@ -6,27 +6,39 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1080px;
-	padding: 0;
-	
-     }
+}
 
-
+html{
+	background-image: url("images/tile.gif");
+    background-repeat: repeat;
+}
+/* trick I found to keep body and header flush with browser as margin and padding assignments would not resolve this annoying error */
+*{
+	margin: 0px;
+	padding: 0px;
+}
 
 header {
 	
+	max-width: 1080px;
 	width: 100%;
-	height: 8%;
+	height: 15%;
 	background-color: #5D5E5D;
 	border-bottom: 1px solid #353635;
-	
+	margin-top: 0;
+	position: fixed;
+	overflow: hidden;
+	z-index: 1;
 }
+
+
 
 h1 
 {
 	text-align: center;
-	text-align: center;
+	/*min-height: 120px; did not work so used max height query at end of css code*/
 	color: white;
-	padding: 80px;
+    padding-top: 5%;
 	
 }
 
@@ -44,10 +56,16 @@ h2
 }
 
 .topImage {
-	        border: 10px inset rgb(53,54,53, .2);
+	    /*border attributes put before shorthand version allowed other browsers to inherit these atttributes, if put after shorthand it did not inherit*/
+	        border-color: #da7b93;
+	        border-style: inset;
+	        border-width: 8px;
+	        border: 10px inset rgb(53,54,53, .2);  
+	        min-width: 150px;
 	        border-radius: 70%;
 			width: 40%;
-            max-width: 450px;           
+            max-width: 450px;    
+	        margin-top: 20%;
 }
 
 
@@ -55,11 +73,13 @@ h2
 .topContainer 
 
 {
+	
     padding-left: 15%;
 	height: 500px;
 	padding-bottom: 150px;
 	padding-top: 100px;
     padding-right: 15%;
+	
 }
 
 
@@ -71,6 +91,7 @@ h2
 	     font-weight: 600;
 	     color: grey;
 	     text-shadow: .5px 0 1px #353635;
+	     margin-top: 20%;
         }
 
 .text_column {
@@ -200,7 +221,8 @@ img {
 .topImage	 {
 		   display: block;
            width: 80%;
-	    
+	       margin-left: auto;
+	       margin-right: auto;
 	}
 	
 	
@@ -230,6 +252,7 @@ img {
 	
 .secondH2 {
 		   padding-bottom: 10px;
+	       margin-top: 15px;
 	      }
 /*image swap*/
 	.sfImg {
@@ -250,3 +273,11 @@ img {
                    
 }
 
+@media (max-height: 650px)
+{
+	
+	header{
+		height: 120px;
+	
+	}	 
+}
