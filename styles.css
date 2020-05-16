@@ -121,14 +121,14 @@ h2
 }
 
 
-/* text shadow and readibility with this mix of colors is hard but I think i found an inbetween, not 100% readable, but the color scheme I desire*/
+
 .rightP {float: right;
          text-align: center;
 	     width: 40%;	
 	     font-size: large;
 	     font-weight: 600;
-	     color: grey;
-	     text-shadow: .5px 0 1px #353635;
+	     color: white;
+	     text-shadow: 2px 0 5px black;
 	     margin-top: 20%;
         }
 
