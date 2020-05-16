@@ -1,51 +1,66 @@
 <!doctype html>
-<html>
+<html lang="en">
  <head>
 	<meta charset="utf-8">
 	<meta name="description" content="Biosite Week4" />
 	<meta name="keywords" content="Paulina, Bio, Web, Design" />
 	<meta name="author" content="Juvenal Gonzalez" />
-	<title>Paulina Chavez</title>
-	<link href="styles.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Raleway:ital@1&display=swap" rel="stylesheet">
- <!-- Global site tag (gtag.js) - Google Analytics -->
+	<!-- Mobile Fiendly -->
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	 <title>Paulina Chavez</title>
+	<link href="styles.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Raleway:ital@1&display=swap" rel="stylesheet" />
+ <!-- Google Analytics wanted to try it out-->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165932073-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-165932073-1');
  </script>
-																															   </head>
-
-												
-  <header>
-    <h1>What Drives Paulina?</h1>
-  </header>
-<body>												
-<main>
+</head>												
+  
+<body>	
+<header>
+    <h1 >What Drives Paulina?</h1>
+	<nav>
+		<a class="navBar" href="#intLink">Interests</a>
+        <a class="navBar" href="#secondH2">Ambitions</a>
+        <a class="navBar" href="#top">Top of Page</a>
+		<!-- NavBarSwap -->
+		<div class="smallNav">
+		<a class="navBar2" href="#intLink">Interests</a>
+        </div>
+		<div class="smallNav">
+		<a  href="#secondH2">Ambitions</a>
+        </div>
+		<div class="smallNav">
+		<a  href="#top">Top of Page</a>
+		</div>	
+  </nav>
+  </header>											
+<main id="top">
  <div class="topContainer"> 
-	 
-	<a href="#" ><img class="topImage" src="images/Paulina.jpg" alt="Paulina"  /></a>
+	<!-- I know, I know, no one likes this contrast of colors in this P but it is what I wanted :)--> 
+	<img  class="topImage" src="images/Paulina.jpg" alt="Paulina"  />
 	<p class="rightP">One of Paulina’s biggest desires is to know what she desires. You may know what your career path is, but some people take quite some time to answer this question. She does have a passion for graphic art design but is not one-hundredth percent sure about this decision. Almost a decade ago she achieved an A.A in Criminal Justice and was pretty sure this would be her career of choice. Only after receiving the degree did she decide that this was not the path she would take. Paulina knows that she is good at managing staff as she has gained experience in her current occupation as an assistant manager. Being good at something does not necessarily mean you will enjoy it. Once her life partner finishes his 4-year degree, she plans to return to college full time in pursuit of another career. As her days are numbered, she still does not know with absolute certainty what will be her academic major. She has recently found a skill for designing flyers and images on designer applications and has always wanted to start a shirt printing business. Her same passion for this type of business has led her to applying for auto wrap job positions so that she may also eventually start a business design car wraps and applying them. Let us look at her other interests and ambitions so that we may see what really drives her.  </p>
 	
   </div>
 	<!-- Wanted to attempt and image swap at a lower res -->
 <div>
-	<a href="#"><img class="sfImg" src="images/Paulina2.jpg" alt="San Francisco" /><img class="sfImg2" src="images/Paulina3.jpg" alt="San Francisco" /></a>
+	<img class="sfImg" src="images/Paulina2.jpg" alt="San Francisco" /><img class="sfImg2" src="images/Paulina3.jpg" alt="San Francisco" />
 </div>
-	
-	<h2 class="firsth2">Interests</h2>
+	 <div id="intLink"></div>
+	<h2 class="firsth2" >Interests</h2>
 
   <figure class="gallery" id="gallery1">
-    <div class="thumbnail"> <a href="#"><img src="images/fortnite.jpg" alt="Fortnite Image" width="2000" class="cards"/></a>
+    <div class="thumbnail"> <img src="images/fortnite.jpg" alt="Fortnite Image" width="2000" class="cards"/>
     <h4>Fortnite</h4>
     </div>
-    <div class="thumbnail"> <a href="#"><img src="images/raiders.jpg" alt="Raiders" width="2000" class="cards"/></a>
+    <div class="thumbnail"> <img src="images/raiders.jpg" alt="Raiders" width="2000" class="cards"/>
 	<h4>Football</h4>
     </div>
-    <div class="thumbnail"> <a href="#"><img src="images/needforspeed.jpg" alt="Need For Speed" width="2000" class="cards"/></a>
+    <div class="thumbnail"> <img src="images/needforspeed.jpg" alt="Need For Speed" width="2000" class="cards"/>
     <h4>Racing Games</h4>
     </div>
   </figure>
@@ -56,31 +71,28 @@
 </div>
 										
 																	
-
+<!-- empty header warning on w3c validator but without this the next h2 is invisible no errors hope warnings are still a vaildator pass-->
 <h2></h2>
-<h2 class="secondH2">Ambitions</h2>
+<h2 class="secondH2" id="secondH2">Ambitions</h2>
 
 
   <figure class="gallery">
-    <div class="thumbnail2"> <a href="#"><img src="images/degree.png" alt="degree" width="2000" class="cards"/></a>
+    <div class="thumbnail2"> <img src="images/degree.png" alt="degree" width="2000" class="cards"/>
 	<h4>Pursue A.S in Graphic Arts</h4>	
     </div>
-    <div class="thumbnail2"> <a href="#"><img src="images/shirtpress.jpg" alt="shirtpress" width="2000" class="cards"/></a>
+    <div class="thumbnail2"> <img src="images/shirtpress.jpg" alt="shirtpress" width="2000" class="cards"/>
 	<h4>Start Shirt Printing Business</h4>
     </div>
-    <div class="thumbnail2"> <a href="#"><img src="images/carwrap.jpg" alt="carwrap" width="2000" class="cards"/></a>
+    <div class="thumbnail2"> <img src="images/carwrap.jpg" alt="carwrap" width="2000" class="cards"/>
     <h4>Start Auto Wrap Business</h4>
     </div>
-	<div class="thumbnail2"> <a href="#"><img src="images/question.jpg" alt="question" width="2000" class="cards"/></a>
+	<div class="thumbnail2"> <img src="images/question.jpg" alt="question" width="2000" class="cards"/>
 	<h4>Find New Career Path</h4>	
     </div>
   </figure>
 																									
 </main>
+ <footer>
+ </footer>
 </body>
-<footer>
-
-
-</footer>
-
 </html>
